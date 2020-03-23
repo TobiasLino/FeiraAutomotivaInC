@@ -22,6 +22,7 @@
 
 #include "phone.h"
 #include "address.h"
+#include "vehicle.h"
 
 typedef struct {
         int id;
@@ -29,8 +30,10 @@ typedef struct {
         unsigned long cpf;
         Phone *phone;
         Address *address;
+        Vehicle *vehicle;
 } Client;
 
+Client* __init_client();
 void print_client(Client *client);
 
 #endif  // SRC_MODEL_CLIENT_H_
