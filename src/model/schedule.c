@@ -46,12 +46,12 @@ void add_client(Schedule *schedule, Client *client) {
         int i = get_index(client->name[0]);
         if (!schedule->list[i]->head) {
                 schedule->list[i]->head = malloc(sizeof(struct Cel));
-                struct Cel *novo = malloc(sizeof(struct Cel));
+                struct client_cel *novo = malloc(sizeof(struct client_cel));
                 novo->client = client;
                 novo->next = NULL;
                 schedule->list[i]->head->next = novo;
         } else {
-                struct Cel *cel = malloc(sizeof(struct Cel));
+                struct client_cel *cel = malloc(sizeof(struct client_cel));
                 cel->client = client;
                 cel->next = schedule->list[i]->head->next;
                 schedule->list[i]->head = cel;
@@ -62,11 +62,9 @@ void add_client(Schedule *schedule, Client *client) {
  */
 void print_schedule(Schedule *schedule) {
         for (int i = 0; i <= 26; ++i) {
-                struct Cel *tmp = schedule->list[i]->head;
+                struct client_cel *tmp = schedule->list[i]->head;
                 for (; tmp; tmp = tmp->next) {
                   if (tmp->client) print_client(tmp->client);
-                  if (tmp->client->phone) print_phone(tmp->client->phone);
-                  if (tmp->client->address) print_address(tmp->client->address);
                 }
         }
 }

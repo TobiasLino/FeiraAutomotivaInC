@@ -16,10 +16,23 @@
 
  */
 #include "client.h"
-
+/*
+ * Função 'construtora' do cliente,
+ * note que vehicle, phone e address estão nulos.
+ */
+Client* __init_client(int id) {
+        Client *new = malloc(sizeof(Client));
+        new->id = id++;
+        new->name = "";
+        new->cpf = 0;
+        return new;
+}
+/* Imprime os dados do cliente */
 void print_client(Client *client) {
         printf("\nClient Data.\n");
         printf("\tID: %d\n", client->id);
         printf("\tName: %s\n", client->name);
         printf("\tCPF: %ld\n", client->cpf);
+        if (tmp->client->phone) print_phone(tmp->client->phone);
+        if (tmp->client->address) print_address(tmp->client->address);
 }

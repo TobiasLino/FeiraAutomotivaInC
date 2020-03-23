@@ -20,13 +20,16 @@
 
 #include "client.h"
 
-struct Cel {
+struct client_cel {
         Client *client;
-        struct Cel *next;
+        struct client_cel *next;
+};
+struct vehicle_cel {
+
 };
 
 typedef struct {
-        struct Cel *head;
+        struct client_cel *head;
 } List;
 
 void sort_list(List *list);

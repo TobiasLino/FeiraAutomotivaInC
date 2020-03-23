@@ -1,0 +1,78 @@
+Requisitos Funcionais
+RF01 – O sistema deve permitir o cadastro de um cliente. (rc01) (rc02) (rc05) (rc06) (rn01) (rn02)
+RF02 – O sistema deve permitir a remoção de um cadastro de cliente. (rc01) (rc02) (rc05) (rc07) (rn04)
+RF03 – O sistema deve permitir a remoção de um cadastro de veículo. (rc01) (rc02) (rc05) (rn04)
+RF04 - O sistema deverá permitir o cadastro de veículos pertencentes aos clientes (rc03) (rc05) (rn03)
+RF05 – Os dados dos clientes serão organizados dentro de uma lista. (rc03) (rc04) (rn02)
+RF06 – O sistema deve permitir o agendamento de revisão (rc05) (rn04)
+RF07– O sistema deve permitir o cancelamento de revisão. (rc05) (rn04)
+RF08– O sistema deve permitir alteração nas datas do agendamento de revisão. (rc04) (rc05) (rn05) (rn06)
+RF09 – O sistema deverá gerar relatórios na medida que o usuário requisitá-lo. (rc05) (rc04) (rn06)
+RF10– O sistema deve permitir a realização de busca de clientes . (rc08)
+RF11– O sistema deve permitir a realização de busca referente às revisões agendadas. (rc08)
+RF12– O sistema deverá fornecer relatórios de quais serviços foram feitos para um determinado cliente e seu veículo. (rc03) (rc08) (rn01) (rn05)
+
+REQUISITOS COMPLEMENTARES
+RC01 – O menu deverá conter as opções de Salvar e Cancelar. (RF01) (RF02) (RF03) (RF04)
+RC02 - A navegação nos menus deverá ser feita conforme o usuário digita a opção numérica correspondente. (RF01) (RF02) (RF03) (RF04)
+RC03 – O arquivo de dados deverá ser carregado quando o programa for inicializado.(RF05)
+RC04 - Os dados do arquivo deverão ser dispersos seguindo as regras da lista de clientes. (RF05)
+RC05 - Os dados digitados deverão ser armazenados na memória até que o usuário os salve. (RF01) (RF02) (RF03) (RF04) (RF05) (RF06) (RF07) (RF08)
+RC06 - O arquivo será salvo sempre que o programa confirmar um cadastro. (RF01) (RF04)
+RC07 - A remoção de um cliente só irá remover os dados do cliente do sistema, mas suas movimentações na empresa ainda continuarão cadastradas. (RF02)
+RC08– A busca deverá imprimir todas as informações do cliente. (RF10) (RF11)
+
+REGRAS DE NEGÓCIO
+RN01 - O sistema deverá salvar todos os dados dos clientes em um arquivo. (RF01) (RF04) (RF05)
+RN02 - Cadastro de clientes deverá conter: (RF01)
+• Nome;
+• Telefone;
+• Endereço;
+• CPF.
+RN03 - Cadastro dos veículos deverá conter: (RF04)
+    Número da placa;
+    Modelo/versão;
+    Ano de fabricação;
+    Valor de compra.
+RN04 – Para operações de exclusão, adição e edição de um cliente, o sistema deve requisitar a confirmação do usuário. (RF02) (RF03) (RF05)
+RN05 – Para operações de exclusão, adição e edição de informações referente às revisões, o sistema deve requisitar a confirmação do usuário. (RF05) (RF03) (RF06) (RF07)
+RN06 – Os relatórios deverão conter quais serviços foram feitos para um determinado cliente e seu veículo. (RC03) (RC08) (RN01) (RN05)
+RN07 – O sistema deve manter um histórico das revisões feitas pelo cliente. (RF06) (RF07) (RF08) (RF09) (RF12)
+RN08 – A Busca será realizada pelo nome do Cliente. (RF10)REQUISITOS NÃO FUNCIONAIS
+
+1. RQNFUNC_01 - Sustentabilidade
+a. RNQFUNC_01.01- O sistema deverá ser escalável, suportando o aumento de
+armazenamento dados em momento futuro.
+2. RQNFUNC _02 – Implementação
+a. RQNFUNC _02.01 - O código de demonstração de funcionamento do dia-
+grama de caso de uso deverá ser escrito em linguagem JAVA.
+b. RQNFUNC _02.02 - O Sistema gerenciador de Banco de dados – Será feito
+por meio do JSON. Este é basicamente um formato leve de troca de
+informações/dados entre sistemas utilizado a fim de gerar relatório da
+aplicação possibilitando também salvar os dados obtidos.
+c. RQNFUNC _02.03 - O software será executado em terminais de linha de
+comando. Logo não é necessário a construção de uma interface gráfica, mas
+apenas de um menu interativo.
+d. RQNFUNC _02.04 - O software deverá funcionar em várias plataformas
+diferentes como Linux, Windows e IOS.
+3.
+RQNFUNC _03 - Segurança
+a. RQNFUNC _03.01 - Para alterar alguma informação no sistema o usuário
+deverá informar o nome, esse dado será utilizado como parâmetro para locali-
+zar o usuário desejado.
+4. RQNFUNC _04 - Disponibilidade
+a.
+RQNFUNC _04.01 - utilização do sistema de cadastro em modo offline.
+b. RQNFUNC _04.02 - Todos os registros de clientes cadastros no sistema po-
+derão ser mantidos (alterados/consultados/excluídos) com o sistema offline e
+novos registros de clientes (inclusão) poderão ser incluídos também com o
+sistema offline. Todos os relatórios de informações cadastrais também preci-
+sarão rodar offline.
+5. RQNFUNC _05 - Usabilidade
+a. RQNFUNC _05.01 - Facilidade de uso, os usuários não necessitam de treina-
+mento prévio para utilizar o sistema.6. RQNFUNC _06 - Ético
+a. RQNFUNC _06.01 - O sistema não apresentará aos usuários quaisquer dados
+de cunho privativo.
+b. RQNFUNC _06.02 - O sistema deverá atender as normas legais, tais como
+padrões, leis, entre outros
+
