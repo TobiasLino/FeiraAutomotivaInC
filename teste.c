@@ -1,7 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
 
-#include "include/address.h"
 #include "include/phone.h"
 #include "include/client.h"
 #include "include/schedule.h"
