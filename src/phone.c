@@ -15,25 +15,14 @@
         along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 
  */
-#ifndef SRC_MODEL_CLIENT_H_
-#define SRC_MODEL_CLIENT_H_
+#include "../include/phone.h"
 
-#include <stdio.h>
+void set_number(Phone *phone, char *number)
+{
+        phone->number = number;
+}
 
-#include "phone.h"
-#include "address.h"
-#include "vehicle.h"
-
-typedef struct {
-        int id;
-        char *name;
-        unsigned long cpf;
-        Phone *phone;
-        Address *address;
-        Vehicle *vehicle;
-} Client;
-
-Client* __init_client();
-void print_client(Client *client);
-
-#endif  // SRC_MODEL_CLIENT_H_
+void print_phone(Phone *phone)
+{
+        printf("\tTelefone: %s", phone->number);
+}

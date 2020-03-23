@@ -82,37 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/include/list.c">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/include/address.h">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/include/list.h">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/include/client.h">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/model/address.c">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/include/list.h">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/model/address.h">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/include/phone.h">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/model/client.c">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/include/schedule.h">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/model/client.h">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/include/vehicle.h">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/model/phone.c">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/address.c">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/model/phone.h">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/client.c">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/model/schedule.c">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/phone.c">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/model/schedule.h">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/schedule.c">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
-		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/src/teste.c">
+		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/teste.c">
 			<Option target="FeiraAutomotivaInC"/>
 		</Unit>
 		<Unit filename="/home/tobias/Git/FeiraAutomotivaInC/CMakeLists.txt">

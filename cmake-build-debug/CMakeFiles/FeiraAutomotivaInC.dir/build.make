@@ -57,105 +57,90 @@ include CMakeFiles/FeiraAutomotivaInC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FeiraAutomotivaInC.dir/flags.make
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
-CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o: ../src/teste.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/teste.c
+CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
+CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.o: ../src/address.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/address.c
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/teste.c > CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.i
+CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/address.c > CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.i
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/teste.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.s
+CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/address.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.s
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
-CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o: ../src/include/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/include/list.c
+CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
+CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.o: ../src/client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/client.c
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/include/list.c > CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.i
+CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/client.c > CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.i
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/include/list.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.s
+CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/client.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.s
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o: ../src/model/address.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/model/address.c
+CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
+CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.o: ../src/phone.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/phone.c
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/model/address.c > CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.i
+CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/phone.c > CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.i
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/model/address.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.s
+CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/phone.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.s
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o: ../src/model/client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/model/client.c
+CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
+CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.o: ../src/schedule.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/schedule.c
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/model/client.c > CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.i
+CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/schedule.c > CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.i
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/model/client.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.s
+CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/schedule.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.s
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o: ../src/model/phone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/model/phone.c
+CMakeFiles/FeiraAutomotivaInC.dir/teste.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
+CMakeFiles/FeiraAutomotivaInC.dir/teste.c.o: ../teste.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/teste.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/teste.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/teste.c
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/model/phone.c > CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.i
+CMakeFiles/FeiraAutomotivaInC.dir/teste.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/teste.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/teste.c > CMakeFiles/FeiraAutomotivaInC.dir/teste.c.i
 
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/model/phone.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.s
-
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o: CMakeFiles/FeiraAutomotivaInC.dir/flags.make
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o: ../src/model/schedule.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o   -c /home/tobias/Git/FeiraAutomotivaInC/src/model/schedule.c
-
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/tobias/Git/FeiraAutomotivaInC/src/model/schedule.c > CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.i
-
-CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/src/model/schedule.c -o CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.s
+CMakeFiles/FeiraAutomotivaInC.dir/teste.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FeiraAutomotivaInC.dir/teste.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/tobias/Git/FeiraAutomotivaInC/teste.c -o CMakeFiles/FeiraAutomotivaInC.dir/teste.c.s
 
 # Object files for target FeiraAutomotivaInC
 FeiraAutomotivaInC_OBJECTS = \
-"CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o" \
-"CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o" \
-"CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o" \
-"CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o" \
-"CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o" \
-"CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o"
+"CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.o" \
+"CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.o" \
+"CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.o" \
+"CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.o" \
+"CMakeFiles/FeiraAutomotivaInC.dir/teste.c.o"
 
 # External object files for target FeiraAutomotivaInC
 FeiraAutomotivaInC_EXTERNAL_OBJECTS =
 
-FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o
-FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o
-FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o
-FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o
-FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o
-FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o
+FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.o
+FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.o
+FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.o
+FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.o
+FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/teste.c.o
 FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/build.make
 FeiraAutomotivaInC: CMakeFiles/FeiraAutomotivaInC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable FeiraAutomotivaInC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable FeiraAutomotivaInC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FeiraAutomotivaInC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

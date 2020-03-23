@@ -15,7 +15,7 @@
         along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 
  */
-#include "client.h"
+#include "../include/client.h"
 /*
  * Função 'construtora' do cliente,
  * note que vehicle, phone e address estão nulos.
@@ -33,6 +33,6 @@ void print_client(Client *client) {
         printf("\tID: %d\n", client->id);
         printf("\tName: %s\n", client->name);
         printf("\tCPF: %ld\n", client->cpf);
-        if (tmp->client->phone) print_phone(tmp->client->phone);
-        if (tmp->client->address) print_address(tmp->client->address);
+        if (client->phone) print_phone(client->phone);
+        if (client->address) print_address(client->address);
 }

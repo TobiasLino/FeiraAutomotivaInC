@@ -11,7 +11,44 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c590a9a2-5615-485c-a464-97c25ac014e0" name="Default Changelist" comment="" />
+    <list default="true" id="c590a9a2-5615-485c-a464-97c25ac014e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/include/map.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/vehicle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FeiraAutomotivaInC" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FeiraAutomotivaInC" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FeiraAutomotivaInC.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FeiraAutomotivaInC.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/list.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/list.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/include/list.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/list.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/address.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/address.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/address.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/address.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/client.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/client.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/phone.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/phone.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/phone.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/phone.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/schedule.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/schedule.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/schedule.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/schedule.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/vehicle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/teste.c" beforeDir="false" afterPath="$PROJECT_DIR$/teste.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +61,15 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fs/create_a_struct" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZVW6rBVQBtyQOT7XIcoY6bV2lA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,6 +81,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/include" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/include" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FeiraAutomotivaInC" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FeiraAutomotivaInC" TARGET_NAME="FeiraAutomotivaInC" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FeiraAutomotivaInC" RUN_TARGET_NAME="FeiraAutomotivaInC">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,30 +132,39 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1644" y="37" width="802" height="678" key="#C/C++/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584925367304" />
+    <state x="1507" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584936928634">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1507" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584936928634" />
     <state x="1621" y="0" width="847" height="746" key="CommitChangelistDialog2" timestamp="1584929607457">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1621" y="0" width="847" height="746" key="CommitChangelistDialog2/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929607457" />
-    <state x="1832" y="133" width="426" height="485" key="FileChooserDialogImpl" timestamp="1584924637200">
+    <state x="1832" y="133" width="426" height="513" key="FileChooserDialogImpl" timestamp="1584937262558">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1832" y="133" width="426" height="485" key="FileChooserDialogImpl/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584924637200" />
-    <state width="1366" height="322" key="GridCell.Tab.0.bottom" timestamp="1584929337626">
+    <state x="1832" y="133" width="426" height="513" key="FileChooserDialogImpl/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584937262558" />
+    <state width="1366" height="185" key="GridCell.Tab.0.bottom" timestamp="1584939513542">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="322" key="GridCell.Tab.0.bottom/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337626" />
-    <state width="1366" height="322" key="GridCell.Tab.0.center" timestamp="1584929337626">
+    <state width="1366" height="185" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584939513542" />
+    <state width="1366" height="185" key="GridCell.Tab.0.center" timestamp="1584939513541">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="322" key="GridCell.Tab.0.center/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337626" />
-    <state width="1366" height="322" key="GridCell.Tab.0.left" timestamp="1584929337626">
+    <state width="1366" height="185" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584939513541" />
+    <state width="1366" height="185" key="GridCell.Tab.0.left" timestamp="1584939513541">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="322" key="GridCell.Tab.0.left/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337626" />
-    <state width="1366" height="322" key="GridCell.Tab.0.right" timestamp="1584929337626">
+    <state width="1366" height="185" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584939513541" />
+    <state width="1366" height="185" key="GridCell.Tab.0.right" timestamp="1584939513542">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="1366" height="322" key="GridCell.Tab.0.right/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337626" />
+    <state width="1366" height="185" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584939513542" />
     <state width="1366" height="322" key="GridCell.Tab.1.bottom" timestamp="1584929337627">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -125,9 +189,22 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state width="640" height="474" key="ImportCMakeProjectWizard.topPanel/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584924649415" />
-    <state x="1644" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584929613423">
+    <state x="1494" y="54" width="1094" height="645" key="MergeDialog" timestamp="1584936863370">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1494" y="54" width="1094" height="645" key="MergeDialog/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584936863370" />
+    <state x="1756" y="92" width="578" height="568" key="MultipleFileMergeDialog" timestamp="1584936863413">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1756" y="92" width="578" height="568" key="MultipleFileMergeDialog/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584936863413" />
+    <state x="1644" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584936886498">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1644" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929613423" />
+    <state x="1644" y="111" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584936886498" />
+    <state x="1765" y="81" width="559" height="590" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584936856087">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1765" y="81" width="559" height="590" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584936856087" />
   </component>
 </project>

@@ -15,14 +15,18 @@
         along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 
  */
-#include "phone.h"
+#ifndef INCLUDE_VEHICLE_H_
+#define INCLUDE_VEHICLE_H_
 
-void set_number(Phone *phone, char *number)
-{
-        phone->number = number;
-}
+#include "client.h"
 
-void print_phone(Phone *phone)
-{
-        printf("\tTelefone: %s", phone->number);
-}
+typedef struct {
+        char *license_plate;
+        char *model_version;
+        char *brand;
+        char *year_of_manufacture;
+        double *purchase_price;
+        struct Client *client;
+} Vehicle;
+
+#endif // INCLUDE_VEHICLE_H_

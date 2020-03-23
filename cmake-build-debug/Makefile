@@ -123,167 +123,140 @@ FeiraAutomotivaInC/fast:
 	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/build
 .PHONY : FeiraAutomotivaInC/fast
 
-src/include/list.o: src/include/list.c.o
+src/address.o: src/address.c.o
 
-.PHONY : src/include/list.o
-
-# target to build an object file
-src/include/list.c.o:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o
-.PHONY : src/include/list.c.o
-
-src/include/list.i: src/include/list.c.i
-
-.PHONY : src/include/list.i
-
-# target to preprocess a source file
-src/include/list.c.i:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.i
-.PHONY : src/include/list.c.i
-
-src/include/list.s: src/include/list.c.s
-
-.PHONY : src/include/list.s
-
-# target to generate assembly for a file
-src/include/list.c.s:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.s
-.PHONY : src/include/list.c.s
-
-src/model/address.o: src/model/address.c.o
-
-.PHONY : src/model/address.o
+.PHONY : src/address.o
 
 # target to build an object file
-src/model/address.c.o:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o
-.PHONY : src/model/address.c.o
+src/address.c.o:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.o
+.PHONY : src/address.c.o
 
-src/model/address.i: src/model/address.c.i
+src/address.i: src/address.c.i
 
-.PHONY : src/model/address.i
+.PHONY : src/address.i
 
 # target to preprocess a source file
-src/model/address.c.i:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.i
-.PHONY : src/model/address.c.i
+src/address.c.i:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.i
+.PHONY : src/address.c.i
 
-src/model/address.s: src/model/address.c.s
+src/address.s: src/address.c.s
 
-.PHONY : src/model/address.s
+.PHONY : src/address.s
 
 # target to generate assembly for a file
-src/model/address.c.s:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.s
-.PHONY : src/model/address.c.s
+src/address.c.s:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.s
+.PHONY : src/address.c.s
 
-src/model/client.o: src/model/client.c.o
+src/client.o: src/client.c.o
 
-.PHONY : src/model/client.o
+.PHONY : src/client.o
 
 # target to build an object file
-src/model/client.c.o:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o
-.PHONY : src/model/client.c.o
+src/client.c.o:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.o
+.PHONY : src/client.c.o
 
-src/model/client.i: src/model/client.c.i
+src/client.i: src/client.c.i
 
-.PHONY : src/model/client.i
+.PHONY : src/client.i
 
 # target to preprocess a source file
-src/model/client.c.i:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.i
-.PHONY : src/model/client.c.i
+src/client.c.i:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.i
+.PHONY : src/client.c.i
 
-src/model/client.s: src/model/client.c.s
+src/client.s: src/client.c.s
 
-.PHONY : src/model/client.s
+.PHONY : src/client.s
 
 # target to generate assembly for a file
-src/model/client.c.s:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.s
-.PHONY : src/model/client.c.s
+src/client.c.s:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.s
+.PHONY : src/client.c.s
 
-src/model/phone.o: src/model/phone.c.o
+src/phone.o: src/phone.c.o
 
-.PHONY : src/model/phone.o
+.PHONY : src/phone.o
 
 # target to build an object file
-src/model/phone.c.o:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o
-.PHONY : src/model/phone.c.o
+src/phone.c.o:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.o
+.PHONY : src/phone.c.o
 
-src/model/phone.i: src/model/phone.c.i
+src/phone.i: src/phone.c.i
 
-.PHONY : src/model/phone.i
+.PHONY : src/phone.i
 
 # target to preprocess a source file
-src/model/phone.c.i:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.i
-.PHONY : src/model/phone.c.i
+src/phone.c.i:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.i
+.PHONY : src/phone.c.i
 
-src/model/phone.s: src/model/phone.c.s
+src/phone.s: src/phone.c.s
 
-.PHONY : src/model/phone.s
+.PHONY : src/phone.s
 
 # target to generate assembly for a file
-src/model/phone.c.s:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.s
-.PHONY : src/model/phone.c.s
+src/phone.c.s:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.s
+.PHONY : src/phone.c.s
 
-src/model/schedule.o: src/model/schedule.c.o
+src/schedule.o: src/schedule.c.o
 
-.PHONY : src/model/schedule.o
+.PHONY : src/schedule.o
 
 # target to build an object file
-src/model/schedule.c.o:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o
-.PHONY : src/model/schedule.c.o
+src/schedule.c.o:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.o
+.PHONY : src/schedule.c.o
 
-src/model/schedule.i: src/model/schedule.c.i
+src/schedule.i: src/schedule.c.i
 
-.PHONY : src/model/schedule.i
+.PHONY : src/schedule.i
 
 # target to preprocess a source file
-src/model/schedule.c.i:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.i
-.PHONY : src/model/schedule.c.i
+src/schedule.c.i:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.i
+.PHONY : src/schedule.c.i
 
-src/model/schedule.s: src/model/schedule.c.s
+src/schedule.s: src/schedule.c.s
 
-.PHONY : src/model/schedule.s
+.PHONY : src/schedule.s
 
 # target to generate assembly for a file
-src/model/schedule.c.s:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.s
-.PHONY : src/model/schedule.c.s
+src/schedule.c.s:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.s
+.PHONY : src/schedule.c.s
 
-src/teste.o: src/teste.c.o
+teste.o: teste.c.o
 
-.PHONY : src/teste.o
+.PHONY : teste.o
 
 # target to build an object file
-src/teste.c.o:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o
-.PHONY : src/teste.c.o
+teste.c.o:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/teste.c.o
+.PHONY : teste.c.o
 
-src/teste.i: src/teste.c.i
+teste.i: teste.c.i
 
-.PHONY : src/teste.i
+.PHONY : teste.i
 
 # target to preprocess a source file
-src/teste.c.i:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.i
-.PHONY : src/teste.c.i
+teste.c.i:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/teste.c.i
+.PHONY : teste.c.i
 
-src/teste.s: src/teste.c.s
+teste.s: teste.c.s
 
-.PHONY : src/teste.s
+.PHONY : teste.s
 
 # target to generate assembly for a file
-src/teste.c.s:
-	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.s
-.PHONY : src/teste.c.s
+teste.c.s:
+	$(MAKE) -f CMakeFiles/FeiraAutomotivaInC.dir/build.make CMakeFiles/FeiraAutomotivaInC.dir/teste.c.s
+.PHONY : teste.c.s
 
 # Help Target
 help:
@@ -294,24 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... FeiraAutomotivaInC"
 	@echo "... edit_cache"
-	@echo "... src/include/list.o"
-	@echo "... src/include/list.i"
-	@echo "... src/include/list.s"
-	@echo "... src/model/address.o"
-	@echo "... src/model/address.i"
-	@echo "... src/model/address.s"
-	@echo "... src/model/client.o"
-	@echo "... src/model/client.i"
-	@echo "... src/model/client.s"
-	@echo "... src/model/phone.o"
-	@echo "... src/model/phone.i"
-	@echo "... src/model/phone.s"
-	@echo "... src/model/schedule.o"
-	@echo "... src/model/schedule.i"
-	@echo "... src/model/schedule.s"
-	@echo "... src/teste.o"
-	@echo "... src/teste.i"
-	@echo "... src/teste.s"
+	@echo "... src/address.o"
+	@echo "... src/address.i"
+	@echo "... src/address.s"
+	@echo "... src/client.o"
+	@echo "... src/client.i"
+	@echo "... src/client.s"
+	@echo "... src/phone.o"
+	@echo "... src/phone.i"
+	@echo "... src/phone.s"
+	@echo "... src/schedule.o"
+	@echo "... src/schedule.i"
+	@echo "... src/schedule.s"
+	@echo "... teste.o"
+	@echo "... teste.i"
+	@echo "... teste.s"
 .PHONY : help
 
 

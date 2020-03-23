@@ -15,16 +15,31 @@
         along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 
  */
-#include "address.h"
+#ifndef INCLUDE_LIST_H_
+#define INCLUDE_LIST_H_
 
-void print_address(Address *address)
-{
-  printf("\n\tAddress:\n");
-  printf("\t\tStreet: %s \n", address->street);
-  printf("\t\tNumber: %ld \n", address->number);
-  printf("\t\tComplement: %s \n", address->complement);
-  printf("\t\tNeighborhood: %s \n", address->neighborhood);
-  printf("\t\tCity: %s \n", address->city);
-  printf("\t\tState: %s \n", address->state);
-  printf("\t\tZIP: %ld \n", address->zip);
-}
+#include "client.h"
+#include "vehicle.h"
+
+struct client_cel {
+        Client *client;
+        struct client_cel *next;
+};
+struct vehicle_cel {
+        Vehicle *vehicle;
+        struct vehicle_cel *next;
+};
+
+typedef struct {
+        struct client_cel *head;
+} client_list;
+
+typedef struct {
+        struct vehicle_cel *head;
+} vehicle_list;
+
+void sort_client_list(client_list *list);
+void put_client(client_list *list, char key, Client *client);
+void remove_client(client_list *list, char *name);
+
+#endif  // INCLUDE_LIST_H_

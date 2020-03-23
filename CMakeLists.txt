@@ -7,9 +7,14 @@ include_directories(src/include)
 include_directories(src/model)
 
 add_executable(FeiraAutomotivaInC
-        src/teste.c
-        src/include/list.c
-        src/model/address.c
-        src/model/client.c
-        src/model/phone.c
-        src/model/schedule.c)
+        include/list.h
+        src/address.c
+        include/address.h
+        src/client.c
+        include/client.h
+        src/phone.c
+        include/phone.h
+        src/schedule.c
+        include/schedule.h
+        include/vehicle.h
+        teste.c)

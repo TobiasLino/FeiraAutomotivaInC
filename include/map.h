@@ -15,27 +15,33 @@
         along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 
  */
-#ifndef SRC_MODEL_SCHEDULE_H_
-#define SRC_MODEL_SCHEDULE_H_
-
-#include <stdlib.h>
-#include <ctype.h>
-
-#include "client.h"
-#include "list.h"
 /*
- * Schedule implementada como um vetor de listas circulares.
- * vai de 'A' até 'Z' onde cada elemento corresponde á lista de clientes
- * cujo nome começa com a letra correspondente.
+ * Implementa uma funcionalidade simples de um map
+ * onde a chave representa a marca do veículo e
+ * o valor representa uma lista de veículos cuja marca
+ * seja a mesma que a chave.
+ */
+#ifndef INCLUDE_MAP_H_
+#define INCLUDE_MAP_H_
+
+#include "list.h"
+/* Célula única */
+struct map_cel {
+        char *key;
+        vehicle_list *value;
+        struct vector_cel *next;
+};
+/*
+ * Implementada como uma lista encadeada
+ * para podermos aumentar o tamanho do map
+ * a medida que adicionamos veículos com novas
+ * marcas.
  */
 typedef struct {
-        List *list[26];
-} Schedule;
+        struct vector_cel *head;
+} vehicle_map;
+/* Adiciona veículo no map */
+void push(vehicle_map *map, Vehicle *vehicle);
+void remove_vehicle(vehicle_map *map, char *model);
 
-Schedule* create_schedule();
-void free_schedule(Schedule *schedule);
-void add_client(Schedule *schedule, Client *client);
-
-void print_schedule(Schedule *schedule);
-
-#endif  // SRC_MODEL_SCHEDULE_H_
+#endif //INCLUDE_MAP_H_

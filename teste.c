@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "model/address.h"
-#include "model/phone.h"
-#include "model/client.h"
-#include "model/schedule.h"
+#include "include/address.h"
+#include "include/phone.h"
+#include "include/client.h"
+#include "include/schedule.h"
 
 int main() {
 
         Client *client = (Client*) malloc(sizeof(Client));
         client->id = 0;
         client->name = "Tobias";
+        Phone *phone = malloc(sizeof(Phone));
+        phone->number = "12996819353";
+        client->phone = phone;
 
         Client *cl2 = malloc(sizeof(Client));
         cl2->id = 1;

@@ -15,7 +15,7 @@
         along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
 
  */
-#include "schedule.h"
+#include "../include/schedule.h"
 
 int get_index(char letter);
 
@@ -24,9 +24,10 @@ Schedule* create_schedule() {
         Schedule *novo = (Schedule*) malloc(sizeof(Schedule));
         /* Aloca memória para cada lista na agenda */
         for (int i = 0; i <= 26; ++i) {
-                novo->list[i] = (List*) malloc(sizeof(List));
-                novo->list[i]->head = NULL;
+                novo->clients[i] = (client_list*) malloc(sizeof(client_list));
+                novo->clients[i]->head = NULL;
         }
+        novo->vehicles = (vehicle_map*) malloc(sizeof(vehicle_map));
         return novo;
 }
 /*
@@ -34,7 +35,7 @@ Schedule* create_schedule() {
  */
 void free_schedule(Schedule *schedule) {
         for (int i = 0; i <= 26; ++i)
-                free(schedule->list[i]);
+                free(schedule->clients[i]);
         free(schedule);
 }
 /*
@@ -44,17 +45,17 @@ void free_schedule(Schedule *schedule) {
  */
 void add_client(Schedule *schedule, Client *client) {
         int i = get_index(client->name[0]);
-        if (!schedule->list[i]->head) {
-                schedule->list[i]->head = malloc(sizeof(struct Cel));
+        if (!schedule->clients[i]->head) {
+                schedule->clients[i]->head = malloc(sizeof(struct client_cel));
                 struct client_cel *novo = malloc(sizeof(struct client_cel));
                 novo->client = client;
                 novo->next = NULL;
-                schedule->list[i]->head->next = novo;
+                schedule->clients[i]->head->next = novo;
         } else {
                 struct client_cel *cel = malloc(sizeof(struct client_cel));
                 cel->client = client;
-                cel->next = schedule->list[i]->head->next;
-                schedule->list[i]->head = cel;
+                cel->next = schedule->clients[i]->head->next;
+                schedule->clients[i]->head = cel;
         }
 }
 /*
@@ -62,7 +63,7 @@ void add_client(Schedule *schedule, Client *client) {
  */
 void print_schedule(Schedule *schedule) {
         for (int i = 0; i <= 26; ++i) {
-                struct client_cel *tmp = schedule->list[i]->head;
+                struct client_cel *tmp = schedule->clients[i]->head;
                 for (; tmp; tmp = tmp->next) {
                   if (tmp->client) print_client(tmp->client);
                 }

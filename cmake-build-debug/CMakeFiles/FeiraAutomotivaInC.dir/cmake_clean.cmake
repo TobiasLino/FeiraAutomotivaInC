@@ -1,10 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FeiraAutomotivaInC.dir/src/include/list.c.o"
-  "CMakeFiles/FeiraAutomotivaInC.dir/src/model/address.c.o"
-  "CMakeFiles/FeiraAutomotivaInC.dir/src/model/client.c.o"
-  "CMakeFiles/FeiraAutomotivaInC.dir/src/model/phone.c.o"
-  "CMakeFiles/FeiraAutomotivaInC.dir/src/model/schedule.c.o"
-  "CMakeFiles/FeiraAutomotivaInC.dir/src/teste.c.o"
+  "CMakeFiles/FeiraAutomotivaInC.dir/src/address.c.o"
+  "CMakeFiles/FeiraAutomotivaInC.dir/src/client.c.o"
+  "CMakeFiles/FeiraAutomotivaInC.dir/src/phone.c.o"
+  "CMakeFiles/FeiraAutomotivaInC.dir/src/schedule.c.o"
+  "CMakeFiles/FeiraAutomotivaInC.dir/teste.c.o"
   "FeiraAutomotivaInC"
   "FeiraAutomotivaInC.pdb"
 )
