@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="FeiraAutomotivaInC" targetName="FeiraAutomotivaInC" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c590a9a2-5615-485c-a464-97c25ac014e0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fs/create_a_struct" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZVW6rBVQBtyQOT7XIcoY6bV2lA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c590a9a2-5615-485c-a464-97c25ac014e0" name="Default Changelist" comment="" />
+      <created>1584924569249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584924569249</updated>
+      <workItem from="1584924571661" duration="80000" />
+      <workItem from="1584924652509" duration="4961000" />
+    </task>
+    <task id="LOCAL-00001" summary="src: add_client() and free() operations.&#10;&#10;Functions of adding client to the list and freeing allocated memory is working.&#10;&#10;Signed-off by: TobiasLino &lt;tobias.lino@fatec.sp.gov.br&gt;">
+      <created>1584929607801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584929607801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="src: add_client() and free() operations.&#10;&#10;Functions of adding client to the list and freeing allocated memory is working.&#10;&#10;Signed-off by: TobiasLino &lt;tobias.lino@fatec.sp.gov.br&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="src: add_client() and free() operations.&#10;&#10;Functions of adding client to the list and freeing allocated memory is working.&#10;&#10;Signed-off by: TobiasLino &lt;tobias.lino@fatec.sp.gov.br&gt;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1644" y="37" width="802" height="678" key="#C/C++" timestamp="1584925367304">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="37" width="802" height="678" key="#C/C++/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584925367304" />
+    <state x="1621" y="0" width="847" height="746" key="CommitChangelistDialog2" timestamp="1584929607457">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1621" y="0" width="847" height="746" key="CommitChangelistDialog2/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929607457" />
+    <state x="1832" y="133" width="426" height="485" key="FileChooserDialogImpl" timestamp="1584924637200">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1832" y="133" width="426" height="485" key="FileChooserDialogImpl/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584924637200" />
+    <state width="1366" height="322" key="GridCell.Tab.0.bottom" timestamp="1584929337626">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="322" key="GridCell.Tab.0.bottom/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337626" />
+    <state width="1366" height="322" key="GridCell.Tab.0.center" timestamp="1584929337626">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="322" key="GridCell.Tab.0.center/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337626" />
+    <state width="1366" height="322" key="GridCell.Tab.0.left" timestamp="1584929337626">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="322" key="GridCell.Tab.0.left/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337626" />
+    <state width="1366" height="322" key="GridCell.Tab.0.right" timestamp="1584929337626">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="322" key="GridCell.Tab.0.right/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337626" />
+    <state width="1366" height="322" key="GridCell.Tab.1.bottom" timestamp="1584929337627">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="322" key="GridCell.Tab.1.bottom/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337627" />
+    <state width="1366" height="322" key="GridCell.Tab.1.center" timestamp="1584929337627">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="322" key="GridCell.Tab.1.center/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337627" />
+    <state width="1366" height="322" key="GridCell.Tab.1.left" timestamp="1584929337627">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="322" key="GridCell.Tab.1.left/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337627" />
+    <state width="1366" height="322" key="GridCell.Tab.1.right" timestamp="1584929337627">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="1366" height="322" key="GridCell.Tab.1.right/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929337627" />
+    <state width="640" height="203" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1584924649415">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="640" height="203" key="ImportCMakeProjectWizard.bottomPanel/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584924649415" />
+    <state width="640" height="474" key="ImportCMakeProjectWizard.topPanel" timestamp="1584924649415">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state width="640" height="474" key="ImportCMakeProjectWizard.topPanel/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584924649415" />
+    <state x="1644" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584929613423">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929613423" />
+  </component>
+</project>

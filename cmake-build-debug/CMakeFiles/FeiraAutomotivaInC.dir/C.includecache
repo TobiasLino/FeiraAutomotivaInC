@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/list.h
+client.h
+../src/include/client.h
+
+/home/tobias/Git/FeiraAutomotivaInC/src/model/address.h
+stdio.h
+-
+
+/home/tobias/Git/FeiraAutomotivaInC/src/model/client.h
+stdio.h
+-
+phone.h
+/home/tobias/Git/FeiraAutomotivaInC/src/model/phone.h
+address.h
+/home/tobias/Git/FeiraAutomotivaInC/src/model/address.h
+
+/home/tobias/Git/FeiraAutomotivaInC/src/model/phone.h
+stdio.h
+-
+
+/home/tobias/Git/FeiraAutomotivaInC/src/model/schedule.c
+schedule.h
+/home/tobias/Git/FeiraAutomotivaInC/src/model/schedule.h
+
+/home/tobias/Git/FeiraAutomotivaInC/src/model/schedule.h
+stdlib.h
+-
+ctype.h
+-
+client.h
+/home/tobias/Git/FeiraAutomotivaInC/src/model/client.h
+list.h
+/home/tobias/Git/FeiraAutomotivaInC/src/model/list.h
+

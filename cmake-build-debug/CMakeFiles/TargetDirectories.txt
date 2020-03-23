@@ -1,0 +1,3 @@
+/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles/FeiraAutomotivaInC.dir
+/home/tobias/Git/FeiraAutomotivaInC/cmake-build-debug/CMakeFiles/edit_cache.dir
