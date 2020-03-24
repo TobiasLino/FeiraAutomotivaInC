@@ -24,6 +24,12 @@
 struct client_cel {
         Client *client;
         struct client_cel *next;
+<<<<<<< HEAD:include/list.h
+=======
+};
+struct vehicle_cel {
+
+>>>>>>> 590bc6396bbe8662ef279865915d89b3f95b413c:src/include/list.h
 };
 struct vehicle_cel {
         Vehicle *vehicle;
@@ -35,8 +41,13 @@ typedef struct {
 } client_list;
 
 typedef struct {
+<<<<<<< HEAD:include/list.h
         struct vehicle_cel *head;
 } vehicle_list;
+=======
+        struct client_cel *head;
+} List;
+>>>>>>> 590bc6396bbe8662ef279865915d89b3f95b413c:src/include/list.h
 
 void sort_client_list(client_list *list);
 void put_client(client_list *list, char key, Client *client);
