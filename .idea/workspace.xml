@@ -12,11 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c590a9a2-5615-485c-a464-97c25ac014e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_Idea.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Project_Idea.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/map.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/map.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/schedule.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/schedule.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/schedule.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/vehicle.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/schedule.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/schedule.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="fs/create_a_struct" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,9 +52,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/doc" />
       <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/include" />
     </key>
   </component>
@@ -80,7 +77,7 @@
       <updated>1584924569249</updated>
       <workItem from="1584924571661" duration="80000" />
       <workItem from="1584924652509" duration="4961000" />
-      <workItem from="1584995782438" duration="10009000" />
+      <workItem from="1584995782438" duration="10653000" />
     </task>
     <task id="LOCAL-00001" summary="src: add_client() and free() operations.&#10;&#10;Functions of adding client to the list and freeing allocated memory is working.&#10;&#10;Signed-off by: TobiasLino &lt;tobias.lino@fatec.sp.gov.br&gt;">
       <created>1584929607801</created>
@@ -103,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584939660096</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mudanças nos diretórios e adição de vehicle e map(vehicles).">
+      <created>1585023444812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585023444812</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,11 +193,12 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1756" y="92" width="578" height="568" key="MultipleFileMergeDialog/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584936863413" />
-    <state x="1644" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2" timestamp="1584939689471">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="278" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2" timestamp="1585023956646">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="1644" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2/0.0.1366.747/1366.0.1366.768@1366.0.1366.768" timestamp="1584929613423" />
     <state x="1644" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2/0.0.1366.768/1366.0.1366.768@1366.0.1366.768" timestamp="1584939689471" />
+    <state x="278" y="111" width="802" height="529" key="Vcs.Push.Dialog.v2/0.768.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1585023956646" />
     <state x="1765" y="81" width="559" height="590" key="git4idea.branch.GitSmartOperationDialog" timestamp="1584936856087">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>

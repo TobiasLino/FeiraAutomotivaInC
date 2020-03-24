@@ -112,8 +112,8 @@ void add_vehicle_to_nonexisting_map(Schedule *schedule, Vehicle *vehicle) {
 
 struct vehicle_cel* allocate_new_cell(vehicle_list *new, Vehicle *to_add) {
         struct vehicle_cel *l_cel = malloc(sizeof(struct vehicle_cel)); // cria uma nova célula da list
-        l_cel->vehicle = to_add;                                       // adiciona o veículo na lista
-        l_cel->next = new->head->next;                          // aponta para o primeiro elemento, depois de head
+        l_cel->vehicle = to_add;                                        // adiciona o veículo na lista
+        l_cel->next = new->head->next;                                  // aponta para o primeiro elemento, depois de head
         return l_cel;
 }
 
