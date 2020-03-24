@@ -36,6 +36,7 @@ typedef struct {
 Schedule* create_schedule();
 void free_schedule(Schedule *schedule);
 void add_client(Schedule *schedule, Client *client);
+void add_vehicle(Schedule *schedule, Vehicle *vehicle);
 
 void print_schedule(Schedule *schedule);
 

@@ -25,12 +25,14 @@
 #define INCLUDE_MAP_H_
 
 #include "list.h"
+
 /* Célula única */
 struct map_cel {
         char *key;
         vehicle_list *value;
-        struct vector_cel *next;
+        struct map_cel *next;
 };
+
 /*
  * Implementada como uma lista encadeada
  * para podermos aumentar o tamanho do map
@@ -38,8 +40,9 @@ struct map_cel {
  * marcas.
  */
 typedef struct {
-        struct vector_cel *head;
+        struct map_cel *head;
 } vehicle_map;
+
 /* Adiciona veículo no map */
 void push(vehicle_map *map, Vehicle *vehicle);
 void remove_vehicle(vehicle_map *map, char *model);
